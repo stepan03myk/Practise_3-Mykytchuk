@@ -1,0 +1,12 @@
+fullname = input('Your first name is:') + input('Your second name is:')
+telephone_number = input('Enter your phone number:')
+adress = input('Enter your street:') + input('Enter your house number:') + ('Enter your apartments number:')
+city = input('Where are you from?:')
+index_of_city = input('Enter your index of city:')
+country_of_born = input('Enter your country:')
+
+print(fullname)
+print(telephone_number )
+print(adress)
+print(index_of_city)
+print(country_of_born)
