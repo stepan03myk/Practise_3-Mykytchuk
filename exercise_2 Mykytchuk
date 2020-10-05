@@ -1,0 +1,19 @@
+num = int(input('Enter a number:'))
+if num < 2:
+    print(num,'Micro')
+elif (num >= 2) and (num < 3):
+    print(num, 'Very minor')
+elif (num >= 3) and (num < 4):
+    print(num, 'Minor')
+elif (num >= 4) and (num < 5):
+    print(num, 'Light')
+elif (num >= 6) and (num < 7):
+    print(num,'Moderate')
+elif (num >= 7) and (num < 8):
+    print(num,'Strong')
+elif (num >= 😍 and (num < 9):
+    print(num,'Major')
+elif (num >= 9) and (num < 10):
+    print(num,'Great')
+elif num > 10:
+    print(num,'Meteoric')
